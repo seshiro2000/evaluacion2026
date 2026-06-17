@@ -1,0 +1,25 @@
+/* =====================================================
+   styles.css — TAWENO SUSHI
+   Completa los estilos según el mockup adjunto
+   ===================================================== */
+
+/* Reset base */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Tu código va aquí */
+body {
+  font-size: 1.6rem;
+}

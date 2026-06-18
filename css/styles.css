@@ -23,3 +23,158 @@ img {
 body {
   font-size: 1.6rem;
 }
+
+
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  color: #888888;
+  background-color: #ffffff;
+}
+
+.takeno{
+   color: #888888;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+}
+
+
+.navbar ul{
+  display:flex;
+  list-style: none; 
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    list-style: none;
+    padding: 2rem;
+    color: #888888
+
+}
+
+.boton-rojo{
+  background-color: #c0392b;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.letra-blanca{
+  text-decoration: none;
+  color: #ffffff
+}
+
+.letra-rojo{
+  text-decoration: none;
+  color: #c0392b
+}
+
+.letra-plomo{
+  text-decoration: none;
+  color: #888888;
+  padding-bottom: 1.25rem;
+}
+
+.fondo-negro{
+  align-items: center;
+  background-color: black;
+  height: 25rem;
+  padding: 2.5rem;
+}
+
+.caja-roja-sin-fondo{
+  background-color: none;
+  padding: 0.35rem 0.35rem;
+  border-radius: 2rem;
+  border: solid #c0392b .1rem;
+  color :#c0392b;
+
+}
+
+.botones-navbar{
+  display:flex;
+
+}
+
+.boton-reservar{
+  background-color: none;
+  text-decoration: none;
+  padding:1rem;
+  color :#888888;
+  border: solid #888888 .1rem;
+  border-radius:1rem;
+  margin-left: 1rem
+}
+
+
+.contenedor-favoritos{
+  background-color: #f2f0eb;
+  padding:4.8rem 3.2rem;
+  border-top: 0.1rem solid#e0ddd5;
+  border-bottom: 0.1rem solid#e0ddd5;
+  display:flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.columna-intro-izquierda{
+  flex-basis: 28rem;
+  flex-shrink: 0;
+  margin-right: 4.8rem;
+}
+
+.etiqueta-superior{
+  color: #c0392b;
+  font-size: 2rem;
+}
+
+.etiqueta-media{
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.etiqueta-baja{
+  font-size: 1.2rem;
+  color: #555555;
+  line-height: 1.7;
+}
+
+.columna-intro-derecha{
+  flex-basis: 1;
+}
+
+.item-lista{
+
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.1rem solid #e0ddd5;
+  width: 100%;
+}
+
+
+.item-lista-ultimo{
+  display:flex;
+  align-items: center;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.imagenes-lista{
+  width: 5.2rem;
+  height: 5.2rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+  margin-right: 1.4rem;
+}
+
+.nombre-lista{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.descripcion-lista{
+  font-size: 1.1rem;
+}

@@ -10,156 +10,155 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
-    <!-- ===================== ACA TU LINK CSS ===================== -->
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- ==================== ACA TU LINK CSS ==================== -->
     <title>TAWENO SUSHI</title>
   </head>
 
   <body>
     <!-- ===================== INICIO HEADER ===================== -->
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#">TAWENO SUSHI</a>
 
-    <nav class="navbar">
-      <div>
-        <a class="takeno" href="#">TAWENO SUSHI</a>
-      </div>
-      <div>
-        <ul>
+        <ul class="lista-enlaces">
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Menú</a></li>
           <li><a href="#">Sobre nosotros</a></li>
           <li><a href="#">Contacto</a></li>
         </ul>
-      </div>
-      <div class="boton-rojo">
-        <a class="letra-blanca" href="#">Reservar</a>
-      </div>
-    </nav>
 
-    <div class="fondo-negro">
-      <div>
-        <span class="caja-roja-sin-fondo">Sushi auténtico desde 2017</span>
-      </div>
-      <div>
-        <h1 class="letra-blanca">
-          Sabor japonés<br /><span class="letra-rojo">en cada pieza</span>
+        <a class="boton-reservar" href="#">Reservar</a>
+      </nav>
+
+      <div class="zona-principal">
+        <span class="etiqueta-superior">Sushi auténtico desde 2017</span>
+        <h1 class="titulo-h1">
+          Sabor japonés<br /><span class="color-rojo">en cada pieza</span>
         </h1>
-      </div>
-      <div>
-        <p class="letra-plomo">
+        <p class="parrafo-descriptivo">
           Ingredientes frescos del día. Tradición y técnica en cada preparación.
           Dos locales en Chile.
         </p>
-      </div>
-
-      <div class="botones-navbar">
-        <div>
-          <a class="boton-rojo letra-blanca" href="#">Ver menú completo</a>
-        </div>
-        <div>
-          <a class="boton-reservar" href="#">Reservar mesa</a>
+        <div class="contenedor-de-botones">
+          <a class="boton-primario" href="#">Ver menú completo</a>
+          <a class="boton-secundario" href="#">Reservar mesa</a>
         </div>
       </div>
-    </div>
+    </header>
     <!-- ===================== FIN HEADER ===================== -->
 
     <!-- ===================== INICIO NUESTRO MENÚ ===================== -->
+    <div class="contenedor-nuestro-menu">
+      <div class="encabezado-seccion">
+        <div>
+          <span class="etiqueta-superior-menu">Selección del chef</span>
+          <h2 class="h2-menu">Nuestro menú</h2>
+        </div>
 
-    <span>Selección del chef</span>
-    <h2>Nuestro menú</h2>
-    <a href="#">Ver todos los productos</a>
+        <a class="enlace-ver-todos" href="#">Ver todos los productos</a>
+      </div>
 
-    <img src="#" alt="Nigiri Salmón" />
-    <h3>Nigiri Salmón</h3>
-    <p>Arroz con salmón fresco y wasabi.</p>
-    <span>$4.990</span>
-    <button type="button">+</button>
+      <div class="fila-de-tarjetas">
+        <div>
+          <img src="img/sushi1.jpg" alt="Nigiri Salmón" />
+          <h3>Nigiri Salmón</h3>
+          <p>Arroz con salmón fresco y wasabi.</p>
+          <div>
+            <span>$4.990</span>
+            <button type="button">+</button>
+          </div>
+        </div>
 
-    <img src="#" alt="Roll Spicy Tuna" />
-    <h3>Roll Spicy Tuna</h3>
-    <p>Atún, pepino, palta y sésamo.</p>
-    <span>$6.490</span>
-    <button type="button">+</button>
+        <div>
+          <img src="img/sushi2.jpg" alt="Roll Spicy Tuna" />
+          <h3>Roll Spicy Tuna</h3>
+          <p>Atún, pepino, palta y sésamo.</p>
+          <div>
+            <span>$6.490</span>
+            <button type="button">+</button>
+          </div>
+        </div>
 
-    <img src="#" alt="Tempura Roll" />
-    <h3>Tempura Roll</h3>
-    <p>Camarón tempura y salsa teriyaki.</p>
-    <span>$6.990</span>
-    <button type="button">+</button>
+        <div>
+          <img src="img/sushi3.jpg" alt="Tempura Roll" />
+          <h3>Tempura Roll</h3>
+          <p>Camarón tempura y salsa teriyaki.</p>
+          <div>
+            <span>$6.990</span>
+            <button type="button">+</button>
+          </div>
+        </div>
 
-    <img src="#" alt="Sashimi Mix" />
-    <h3>Sashimi Mix</h3>
-    <p>12 piezas premium variadas.</p>
-    <span>$9.990</span>
-    <button type="button">+</button>
+        <div class="fila-de-tarjetas-ultima">
+          <img src="img/sushi4.jpg" alt="Sashimi Mix" />
+          <h3>Sashimi Mix</h3>
+          <p>12 piezas premium variadas.</p>
+          <div>
+            <span>$9.990</span>
+            <button type="button">+</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- ===================== FIN NUESTRO MENÚ ===================== -->
 
     <!-- ===================== INICIO LOS MÁS PEDIDOS ===================== -->
-    <div class="contenedor-favoritos">
-      <div class="columna-intro-izquierda">
-        <span class="etiqueta-superior">Favoritos</span>
-        <h2 class="etiqueta-media">Los más pedidos</h2>
-        <p class="etiqueta-baja">
+    <div class="contenedor-mas-pedidos">
+      <div class="columna-izquierda">
+        <span class="etiqueta-superior-mas-pedidos">Favoritos</span>
+        <h2 class="h2-mas-pedidos">Los más pedidos</h2>
+        <p class="parrafo-mas-pedidos">
           Los platos que nuestros clientes eligen semana a semana. Preparados al
           momento con ingredientes frescos.
         </p>
       </div>
 
-      <div class="columa-intro-derecha">
-        <ul>
-          <li class="item-lista">
+      <ul class="productos-derecha">
+        <li>
+          <section>
+            <img src="img/sushi1.jpg" alt="Miniatura Nigiri Salmón" />
             <div>
-              <img
-                class="imagenes-lista"
-                src="img/sushi1.jpg"
-                alt="Miniatura Nigiri Salmón"
-              />
-              <span class="nombre-lista">Nigiri Salmón</span>
-              <small class="descripcion-lista"
-                >Arroz con salmón fresco y wasabi</small
-              >
+              <span>Nigiri Salmón</span>
+              <small>Arroz con salmón fresco y wasabi</small>
             </div>
+          </section>
+          <div class="bloque-meta">
+            <span class="color-rojo">$4.990</span>
+            <small>+320 pedidos</small>
+          </div>
+        </li>
+
+        <li>
+          <section>
+            <img src="img/sushi2.jpg" alt="Miniatura Roll Spicy Tuna" />
             <div>
-              <span>$4.990</span>
-              <small>+320 pedidos</small>
+              <span>Roll Spicy Tuna</span>
+              <small>Atún, pepino, palta y sésamo</small>
             </div>
-          </li>
-          <li class="item-lista">
+          </section>
+          <div class="bloque-meta">
+            <span class="color-rojo">$6.490</span>
+            <small>+210 pedidos</small>
+          </div>
+        </li>
+
+        <li>
+          <section>
+            <img src="img/sushi3.jpg" alt="Miniatura Tempura Roll" />
             <div>
-              <img
-                class="imagenes-lista"
-                src="img/sushi2.jpg"
-                alt="Miniatura Roll Spicy Tuna"
-              />
-              <span class="nombre-lista">Roll Spicy Tuna</span>
-              <small class="descripcion-lista"
-                >Atún, pepino, palta y sésamo</small
-              >
+              <span>Tempura Roll</span>
+              <small>Camarón tempura y salsa teriyaki</small>
             </div>
-            <div>
-              <span>$6.490</span>
-              <small>+210 pedidos</small>
-            </div>
-          </li>
-          <li class="item-lista-ultimo">
-            <div>
-              <img
-                class="imagenes-lista"
-                src="img/sushi3.jpg"
-                alt="Miniatura Tempura Roll"
-              />
-              <span class="nombre-lista">Tempura Roll</span>
-              <small class="descripcion-lista"
-                >Camarón tempura y salsa teriyaki</small
-              >
-            </div>
-            <div>
-              <span>$6.990</span>
-              <small>+185 pedidos</small>
-            </div>
-          </li>
-        </ul>
-      </div>
+          </section>
+          <div class="bloque-meta">
+            <span class="color-rojo">$6.990</span>
+            <small>+185 pedidos</small>
+          </div>
+        </li>
+
+      </ul>
     </div>
     <!-- ===================== FIN LOS MÁS PEDIDOS ===================== -->
 

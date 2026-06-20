@@ -397,7 +397,8 @@ color: #555555;
   background-color: #ffffff;
   padding: 2rem 1.6rem;
   text-align: center;
-  border-right: 0.1rem solid #e0ddd5 ;
+  border-right: 0.1rem solid #e0ddd5;
+
 }
 
 .estadisticas-ultimo{
@@ -405,6 +406,7 @@ color: #555555;
   background-color: #ffffff;
   padding: 2rem 1.6rem;
   text-align: center;
+  flex-direction: column;
 }
 
 .estadisticas div span{

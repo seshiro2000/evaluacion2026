@@ -457,6 +457,7 @@ color: #555555;
 .columna-izquierda-info ul{
   display: flex;
   flex-direction: column;
+  list-style: none;;
 }
 
 .columna-izquierda-info ul li{

@@ -146,7 +146,7 @@ body {
 }
 
 
-/*seleccion del chef*/
+/*nuestro menu*/
 
 
 .contenedor-nuestro-menu{
@@ -203,6 +203,7 @@ body {
   border-radius: 1rem;
   overflow: hidden;
   margin-right: 1rem;
+  flex-basis: 50%;
 }
 
 .fila-de-tarjetas img{
@@ -350,3 +351,250 @@ color: #555555;
 
 /*sobre nosotros*/
 
+.contenedor-sobre-nosotros{
+  background-color: #ffffff;
+  padding: 4.8rem 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nosotros{
+  flex-basis: 45%;
+}
+
+.nosotros span{
+  color: #c0392b;
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.nosotors h2{
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+.nosotros p{
+  font-size: 1.3rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+.estadisticas{
+  flex-basis: 45%;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.estadisticas-todos{
+  flex-basis: 33.33%;
+  background-color: #ffffff;
+  padding: 2rem 1.6rem;
+  text-align: center;
+  border-right: 0.1rem solid #e0ddd5 ;
+}
+
+.estadisticas-ultimo{
+  flex-basis: 33.33%;
+  background-color: #ffffff;
+  padding: 2rem 1.6rem;
+  text-align: center;
+}
+
+.estadisticas div span{
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.estadisticas div small{
+  font-size: 1.1rem;
+  color: #555555;
+  margin-top: 0.4rem;
+}
+
+/*contactanos*/
+
+.contenedor-contacto{
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  border-top: 0.1rem solid #e0ddd5;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.columna-izquierda-info{
+  flex-basis: 40%;
+}
+
+.columna-izquierda-info div{
+  color: #c0392b;
+  font-size: 1rem;
+}
+
+.columna-izquierda-info h2{
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+.columna-izquierda-info p{
+  font-size: 1.3rem;
+  color: #555555;
+  line-height: 1.8;
+  margin-bottom: 2.4rem;
+}
+
+.columna-izquierda-info ul{
+  display: flex;
+  flex-direction: column;
+}
+
+.columna-izquierda-info ul li{
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #555555;
+}
+
+.columna-izquierda-info ul li a{
+  color: #c0392b;
+}
+
+.columna-derecha-info{
+  flex-basis: 50%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 1rem;
+  padding: 2.4rem;
+}
+
+.columna-derecha-info form{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+}
+
+.columna-derecha-info form label{
+  font-size: 1.1rem;
+  color: #555555;
+  margin-bottom: 1rem;
+}
+
+.columna-derecha-info form input{
+  margin-bottom: 1rem;
+}
+
+.columna-derecha-info form textarea{
+  background-color: #f9f8f5;
+  border: 0.1rem solid #e0ddd5;
+  border-radius: 0.6rem;
+  padding: 0.9rem 1.2rem;
+  font-size: 1.2rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.columna-derecha-info form button{
+  background-color: #c0392b;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.6rem;
+  width: 100%;
+  margin-top: 0.4rem;
+}
+
+/*footer*/
+
+.contenedor-footer{
+  background-color: #111111;
+  padding: 3.6rem 3.2rem 2rem;
+}
+
+.columnas-footer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2.8rem;
+}
+
+.columnas-footer article{
+  flex-basis: 35%;
+}
+
+.columnas-footer article h3{
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.columnas-footer article p{
+  color: #666666;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+
+.columnas-footer section{
+  flex-basis: 18%;
+}
+
+.columnas-footer section h4{
+  color: #999999;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 1.2rem;
+}
+
+.columnas-footer ul{
+  list-style: none;
+  padding: 0;
+}
+
+.columnas-footer section ul li{
+  font-size: 1.1rem;
+  color: #666666;
+  line-height: 1.9;
+}
+
+.columnas-footer section ul li a{
+  color: #666666;
+  text-decoration: none;
+}
+
+.barra-inferior{
+  border-top: 0.1rem solid #222222;
+  padding-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barra-inferior p{
+  font-size: 1rem;
+  color: #444444;
+}
+
+.barra-inferior ul{
+  display: flex;
+}
+
+.barra-inferior ul li{
+  margin-right: 1.6rem;
+}
+
+.barra-inferior ul li a{
+  font-size: 1rem;
+  color: #444444;
+  text-decoration: none;
+}
